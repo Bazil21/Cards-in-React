@@ -6,7 +6,23 @@ import  faker  from '@faker-js/faker';
 function App() {
   return (
     <div className="App">
-     <h1>This is First Heading</h1>
+         <div className="App">
+      <Cards
+      avatar = {faker.image.avatar()}
+       name={ `${faker.name.firstName()} ${faker.name.lastName()}`} 
+       title = {faker.name.jobTitle()}
+       />
+       <Cards
+      avatar = {faker.image.avatar()}
+       name={ `${faker.name.firstName()} ${faker.name.lastName()}`} 
+       title = {faker.name.jobTitle()}
+       />
+        <Cards
+      avatar = {faker.image.avatar()}
+       name={ `${faker.name.firstName()} ${faker.name.lastName()}`} 
+       title = {faker.name.jobTitle()}
+       />
+    </div>
     </div>
   );
 }
