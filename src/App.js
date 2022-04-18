@@ -11,7 +11,9 @@ function App() {
       avatar = {faker.image.avatar()}
        name={ `${faker.name.firstName()} ${faker.name.lastName()}`} 
        title = {faker.name.jobTitle()}
-       />
+       > <button class="button">Green</button>
+       <button class="button button2">Blue</button>
+       </Cards>
        <Cards
       avatar = {faker.image.avatar()}
        name={ `${faker.name.firstName()} ${faker.name.lastName()}`} 
