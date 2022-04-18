@@ -1,6 +1,8 @@
+import React from 'react'; 
 
-import './App.css';
-
+import './custom.css';
+import Cards from './Cards';
+import  faker  from '@faker-js/faker';
 function App() {
   return (
     <div className="App">
