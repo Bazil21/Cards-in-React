@@ -8,7 +8,7 @@ function Cards(props) {
             <div className="container">
               <h4><b>{props.name}</b></h4> 
               <p>{props.title}</p> 
-              <p>{}</p>
+              <p>{props}</p>
             </div>
           </div>
     );
